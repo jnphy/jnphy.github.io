@@ -1,0 +1,224 @@
+/* index.html uses styles from this sheet. */
+body {
+    font-family: Helvetica;
+    background-color: rgb(20, 20, 20);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.project-oomfies {
+    margin: 0px;
+    padding: 130px;
+    background-image: linear-gradient(to right, rgb(138, 44, 172), rgb(235, 118, 217), white);
+}
+
+.project-oomfies p {
+    margin-right: 280px;
+}
+
+.project-oomfies h1 {
+    margin: 0px;
+}
+
+.project-oomfies p {
+    margin-bottom: 80px;
+    font-size: 19px;
+}
+
+.button {
+    background-color: white;
+    color: rgb(20, 20, 20);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 450px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(20, 20, 20);
+    color: white;
+
+}
+
+nav img {
+    padding-right: 30px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition-duration: 0.2s;
+}
+
+ul li a:hover {
+    color: rgb(253, 167, 246);
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    color: rgb(26, 26, 26);
+    display: block;
+    background-color: rgb(243, 151, 243);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.film-collection {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.film h4 {
+    margin: 10px;
+}
+
+.film p {
+    margin: 5px;
+}
+
+/* Poster fade in animation in the Filmography section. */
+.film img {
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.film img:hover {
+    opacity: 0.7;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline img {
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    transition-duration: 0.5s;
+}
+
+.timeline img:hover {
+    background-color: rgb(243, 151, 243);
+}
+
+.timeline h2 {
+    margin: 0px;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    margin: 0px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+footer h5 {
+    margin: 0px;
+}
+
+.email {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(253, 167, 246);
+    text-align: center;
+}
+
+h4 {
+    color: rgb(253, 167, 246);
+    font-size: 22px
+}
+
+h5 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    line-height: 2;
+}

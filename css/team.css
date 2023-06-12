@@ -1,0 +1,140 @@
+/* team.html uses styles from this sheet. */
+body {
+    font-family: Helvetica;
+    background-color: rgb(20, 20, 20);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+nav img {
+    padding-right: 30px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+ul li {
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.9;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition-duration: 0.2s;
+}
+
+ul li a:hover {
+    color: rgb(253, 167, 246);
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    color: rgb(26, 26, 26);
+    display: block;
+    background-color: rgb(243, 151, 243);
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.gradient {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+    background-image: linear-gradient(to right, rgb(194, 247, 120), rgb(131, 226, 86), rgb(26, 163, 47));
+    text-align: center;
+}
+
+.gradient h1 {
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.gradient h4 {
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.gradient p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(246, 85, 232);
+    margin: 0px;
+}
+
+h4 {
+    color: rgb(253, 167, 246);
+    font-size: 22px
+}
+
+h5 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    margin: 0px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+footer h5 {
+    margin: 0px;
+}
+
+.email {
+    text-decoration: none;
+}
